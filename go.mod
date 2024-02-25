@@ -1,9 +1,11 @@
 module github.com/hebecoding/tenant-management
 
-go 1.20
+go 1.21
+
+toolchain go1.22.0
 
 require (
-	github.com/brianvoe/gofakeit/v6 v6.22.0
+	github.com/brianvoe/gofakeit/v6 v6.28.0
 	github.com/hebecoding/digital-dash-commons v0.0.0-20230609031200-4e45f5a9770f
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/viper v1.16.0
